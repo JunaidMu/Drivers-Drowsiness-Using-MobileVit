@@ -21,7 +21,7 @@ To demonstrate the architecture's capability on edge devices, this repository in
 * **`train.py`**: The training loop. Features a utility function to automatically download and transfer official ImageNet pre-trained weights from `timm` to the custom architecture to speed up convergence.
 
 ### Demonstration
-* **`webcam.py`**: A live inference script using OpenCV. It utilizes Haar Cascades to isolate the Region of Interest (ROI) [cite: 115], feeds the localized sequence to the MobileViT model, and triggers a warning logic if a threshold of drowsy frames is exceeded.
+* **`webcam.py`**: A live inference script using OpenCV. It utilizes Haar Cascades to isolate the Region of Interest (ROI), feeds the localized sequence to the MobileViT model, and triggers a warning logic if a threshold of drowsy frames is exceeded.
 
 ## Installation
 
